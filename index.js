@@ -1,6 +1,10 @@
 const API = 'https://localhost7265';
 
 const openModalSignUp = () => {
+	reset();
+	document.querySelector('#descName').innerHTML = '';
+	document.querySelector('#descEmail').innerHTML = '';
+	document.querySelector('#descPassword').innerHTML = '';
 	document.getElementById('modalSignUp').style.display = 'block';
 };
 
@@ -22,7 +26,9 @@ for (b of a) {
 }
 
 const handleRespone = (res) => {
+	console.log(res);
 	closeModalSignUp();
+	alert(res.message);
 };
 
 function Register(data) {
