@@ -1,4 +1,4 @@
-const API = 'https://localhost3000';
+const API = 'https://localhost7265';
 
 const openModalSignUp = () => {
 	document.getElementById('modalSignUp').style.display = 'block';
@@ -100,7 +100,11 @@ signUpBtn.onclick = () => {
 	console.log(jobRoles);
 	console.log(biograpphy);
 
-	let formData = {};
+	let formData = {
+		//  ... : name
+		// ...  : password
+		//  ...
+	};
 	const c = checkSignup();
 	if (c === true) {
 		Register(formData);
