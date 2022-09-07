@@ -1,0 +1,235 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: #333 !important;
+    font-size: 12px;
+}
+
+* {
+    margin-bottom: 0 !important;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+input {
+    background-color: #e5eff1 !important;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+
+
+.modalSignUp {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+
+.containerSignUp {
+
+    position: fixed;
+    background-color: #f4f4f4;
+    width: 30%;
+
+
+    margin-top: 10px;
+    margin-left: 50%;
+    padding: 0 20px 20px;
+    transform: translateX(-50%);
+
+
+    z-index: 2;
+}
+
+
+.signUp-header {
+    width: 100%;
+
+}
+
+.heading {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.signUp-body {}
+
+.info {}
+
+.item {
+    display: flex;
+
+}
+
+.number {
+    text-align: center;
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: #60cf83;
+}
+
+.title {
+    margin-left: 6px;
+}
+
+.desc {
+    color: red !important;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+
+.signUp-submit {
+    width: 100%;
+    background-color: #49cb73;
+    color: white;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+
+}
