@@ -96,14 +96,21 @@ signUpBtn.onclick = () => {
 	).value;
 	const biograpphy = document.getElementById('floatingTextarea').value;
 	const jobRoles = document.querySelector('.form-select').value;
-	const interest = document.querySelector('#flexCheckChecked2').value;
-	console.log(jobRoles);
-	console.log(biograpphy);
+
+	const development = document.querySelector('.development').checked;
+	const design = document.querySelector('.design').checked;
+	const business = document.querySelector('.business').checked;
 
 	let formData = {
-		//  ... : name
-		// ...  : password
-		//  ...
+		email: email,
+		password: password,
+		name: name,
+		age: age,
+		jobRoles: jobRoles,
+		development: development,
+		design: design,
+		business: business,
+		role: ['User'],
 	};
 	const c = checkSignup();
 	if (c === true) {
