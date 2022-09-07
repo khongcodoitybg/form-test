@@ -112,6 +112,7 @@ signUpBtn.onclick = () => {
 		password: password,
 		name: name,
 		age: age,
+		biograpphy: biograpphy,
 		jobRoles: jobRoles,
 		development: development,
 		design: design,
